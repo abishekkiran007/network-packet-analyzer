@@ -1,6 +1,6 @@
 # Network Packet Analyzer
 
-> **Month 1 of 12** — Built by [Abishek D](https://github.com/abishekkiran007) as part of a 12-month Cybersecurity + AI project challenge.
+> **Month 1 of 12** - Built by [Abishek Devanand](https://github.com/abishekkiran007) as part of a 12-month Cybersecurity + AI project challenge.
 
 A real-time network packet capture and analysis tool built entirely in Python with zero heavy dependencies.
 
@@ -11,19 +11,20 @@ A real-time network packet capture and analysis tool built entirely in Python wi
 | Feature | Description |
 |---|---|
 | Live Capture | Raw socket capture of TCP, UDP, ICMP packets |
-| Web Dashboard | Live browser dashboard — no Flask needed |
+| Web Dashboard | Live browser dashboard - no Flask needed |
 | Rich Terminal UI | Color-coded live packet stream in terminal |
 | Protocol Parsing | Full IPv4, TCP (with flags), UDP header parsing |
 | Smart Filtering | Filter by protocol or IP address |
 | Live Stats | PPS, bytes, protocol breakdown, top IPs and ports |
 | JSON Export | Save full capture session to JSON |
-| Test Suite | 21 unit tests — all passing |
-| Simulator Mode | Fake traffic demo — no admin needed |
+| Test Suite | 21 unit tests - all passing |
+| Simulator Mode | Fake traffic demo - no admin needed |
 
 ---
 
 ## Project Structure
 
+```
 network-packet-analyzer/
 ├── core/
 │   ├── analyzer.py       # Core engine: parsers, PacketAnalyzer class
@@ -36,8 +37,7 @@ network-packet-analyzer/
 ├── main.py               # CLI entry point
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## Quick Start
@@ -82,12 +82,12 @@ python -m pytest tests/ -v
 
 ## What I Learned
 
-- Raw socket programming — How IP/TCP/UDP headers are structured in binary
-- struct.unpack — Parsing binary network data byte by byte
-- Threading — Running capture in background while UI stays responsive
-- Protocol internals — TCP flags, TTL, IHL, port to service mapping
-- Stdlib HTTP server — Building a live API without Flask
-- Test-driven development — Writing tests for all parsers
+- Raw socket programming - How IP/TCP/UDP headers are structured in binary
+- struct.unpack - Parsing binary network data byte by byte
+- Threading - Running capture in background while UI stays responsive
+- Protocol internals - TCP flags, TTL, IHL, port to service mapping
+- Stdlib HTTP server - Building a live API without Flask
+- Test-driven development - Writing tests for all parsers
 
 ---
 
@@ -126,7 +126,7 @@ python -m pytest tests/ -v
 
 ## Author
 
-**Abishek D** — Cybersecurity Student | AI | Network Engineer  
+**Abishek D** - Cybersecurity Student | AI | Network Engineer  
 Location: Tenkasi, Tamil Nadu  
 LinkedIn: https://linkedin.com/in/abishek-d-437638323  
 GitHub: https://github.com/abishekkiran007
