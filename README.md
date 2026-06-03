@@ -44,7 +44,7 @@ network-packet-analyzer/
 
 ### 1. Clone and Install
 ```bash
-git clone https://github.com/abishekkiran007/network-packet-analyzer
+git clone https://github.com/abishek-07d/network-packet-analyzer
 cd network-packet-analyzer
 pip install -r requirements.txt
 ```
