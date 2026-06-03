@@ -1,6 +1,6 @@
 # Network Packet Analyzer
 
-> **Month 1 of 12** - Built by [Abishek Devanand](https://github.com/abishekkiran007) as part of a 12-month Cybersecurity + AI project challenge.
+> **Month 1 of 12** - Built by [Abishek Devanand](https://github.com/abishek-07d) as part of a 12-month Cybersecurity + AI project challenge.
 
 A real-time network packet capture and analysis tool built entirely in Python with zero heavy dependencies.
 
@@ -129,7 +129,7 @@ python -m pytest tests/ -v
 **Abishek D** - Cybersecurity Student | AI | Network Engineer  
 Location: Tenkasi, Tamil Nadu  
 LinkedIn: https://linkedin.com/in/abishek-d-437638323  
-GitHub: https://github.com/abishekkiran007
+GitHub: https://github.com/abishek-07d
 
 ---
 
